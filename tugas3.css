@@ -1,0 +1,87 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: green;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+#profile{
+  background-color: black;
+  color: white;
+  width: auto;
+  height: 300px;
+  margin: auto;
+  }
+
+.profile-photo{
+  padding: 20px;
+  position: absolute;
+}
+.profile-photo img{
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.profile-text{
+  border: 2px solid yellow;
+  position: relative;
+  width: max-content;
+  margin-left: 300px;
+  /*margin-right: 100px;
+  padding-top: 20px;*/
+}
+
+#detail{
+  border: 2px solid pink;
+  position: static;
+  margin-left: 50%;
+}
