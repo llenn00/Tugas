@@ -53,35 +53,3 @@ form input[type="submit"] {
 }
 
 /* tambahkan CSS untuk section profile disini */
-
-#profile{
-  background-color: black;
-  color: white;
-  width: auto;
-  height: 300px;
-  margin: auto;
-  }
-
-.profile-photo{
-  padding: 20px;
-  position: absolute;
-}
-.profile-photo img{
-  border: 2px solid red;
-  border-radius: 50%;
-}
-
-.profile-text{
-  border: 2px solid yellow;
-  position: relative;
-  width: max-content;
-  margin-left: 300px;
-  /*margin-right: 100px;
-  padding-top: 20px;*/
-}
-
-#detail{
-  border: 2px solid pink;
-  position: static;
-  margin-left: 50%;
-}
